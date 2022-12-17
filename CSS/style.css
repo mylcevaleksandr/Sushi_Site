@@ -14,10 +14,6 @@
     margin: 0 auto;
 }
 
-.logo-media {
-    display: inline-block;
-}
-
 .logo-img {
     display: inline-block;
     vertical-align: middle;
@@ -304,12 +300,13 @@
     line-height: 1.2;
 }
 
+/*Media Queries, можно не проверять, сделал чтоб знакомым показать сайт на смартфоне.*/
+
 @media screen and (max-width: 1199px) {
 
     .container {
         text-align: center;
     }
-
 
     .main h1 {
         text-align: inherit;
@@ -332,18 +329,3 @@
         margin-left: 0;
     }
 }
-
-@media screen and (min-width: 300px) and (max-width: 599px) {
-    *{
-        background-color: chartreuse;
-    }
-    .logo-media{
-        display: block;
-    }
-    .header-navigation{
-        background-color: chartreuse;
-        display: block;
-        margin-top: 40px;
-    }
-}
-
