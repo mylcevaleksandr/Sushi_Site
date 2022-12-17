@@ -14,6 +14,10 @@
     margin: 0 auto;
 }
 
+.logo-media {
+    display: inline-block;
+}
+
 .logo-img {
     display: inline-block;
     vertical-align: middle;
@@ -300,4 +304,46 @@
     line-height: 1.2;
 }
 
+@media screen and (max-width: 1199px) {
+
+    .container {
+        text-align: center;
+    }
+
+
+    .main h1 {
+        text-align: inherit;
+    }
+
+    .main-img {
+        margin: 60px 0 0 0;
+    }
+
+    .about-header, .about-article, .about-reading {
+        text-align: inherit;
+    }
+
+    .about-info a:nth-child(6) {
+        margin-right: 0;
+    }
+
+    .about-img {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+    *{
+        background-color: chartreuse;
+    }
+    .logo-media{
+        display: block;
+    }
+    .header-navigation{
+        background-color: chartreuse;
+        display: block;
+        margin-top: 40px;
+    }
+}
 
